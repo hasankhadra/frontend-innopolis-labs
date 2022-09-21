@@ -92,3 +92,21 @@ body {
     height: 30px;
     padding: 0 15px;
 }
+
+#random-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#random-facts > div {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    width: 50px;
+    
+}
