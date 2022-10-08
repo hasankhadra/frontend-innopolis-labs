@@ -1,0 +1,7 @@
+{
+	"": [],
+	"about": [
+		"src/routes/about/+page.ts"
+	],
+	"randomFacts": []
+}
