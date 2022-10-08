@@ -1,11 +1,11 @@
 {
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-661db3dc.js",
+    "file": "_app/immutable/start-6ed5a176.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-13dd509d.js",
-      "_singletons-a62eec1c.js",
+      "_singletons-5f4bb086.js",
       "_paths-6cd3a76e.js"
     ],
     "dynamicImports": [
@@ -25,12 +25,12 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-aafce4f3.js",
+    "file": "_app/immutable/components/error.svelte-0cf36841.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-13dd509d.js",
-      "_singletons-a62eec1c.js"
+      "_singletons-5f4bb086.js"
     ]
   },
   "src/routes/+page.svelte": {
@@ -93,8 +93,8 @@
       "__page-331790a0.js"
     ]
   },
-  "_singletons-a62eec1c.js": {
-    "file": "_app/immutable/chunks/singletons-a62eec1c.js",
+  "_singletons-5f4bb086.js": {
+    "file": "_app/immutable/chunks/singletons-5f4bb086.js",
     "imports": [
       "_index-13dd509d.js",
       "_paths-6cd3a76e.js"
@@ -134,7 +134,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-7d428817.js",
+    "file": "_app/immutable/chunks/1-b4126f00.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -172,13 +172,13 @@
     "file": "_app/immutable/assets/_page-0ed83a5c.css",
     "src": "src/routes/+page.css"
   },
-  "src/routes/about/+page.css": {
-    "file": "_app/immutable/assets/_page-81612c6d.css",
-    "src": "src/routes/about/+page.css"
-  },
   "Footer.css": {
     "file": "_app/immutable/assets/Footer-04539b5d.css",
     "src": "Footer.css"
+  },
+  "src/routes/about/+page.css": {
+    "file": "_app/immutable/assets/_page-81612c6d.css",
+    "src": "src/routes/about/+page.css"
   },
   "src/routes/randomFacts/+page.css": {
     "file": "_app/immutable/assets/_page-9546cf57.css",
