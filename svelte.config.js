@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -14,7 +14,7 @@ const config = {
 		}),
         paths: {
             // change below to your repo name
-            base: "/hasankhadra.github.io",
+            base: "",
         }
         // hydrate the <iv id="svelte"> element in src/app.html
     }
