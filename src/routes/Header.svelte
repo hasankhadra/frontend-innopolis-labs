@@ -1,12 +1,17 @@
+<script lang="ts">
+	  import { base } from '$app/paths';
+
+</script>
+
 <header>
 	<h1>Hasan Khadra Portfolio</h1>
 
 	<h2>Blockchain and Frontend Developer</h2>
 	<h2>Pianist and guitarist</h2>
 	<nav class="navigation">
-		<a href="/">Home Page</a>
-		<a href="/about">About me</a>
-		<a href="/randomFacts">Random Facts</a>
+		<a href="{base}/">Home Page</a>
+		<a href="{base}/about">About me</a>
+		<a href="{base}/randomFacts">Random Facts</a>
 	</nav>
 </header>
 

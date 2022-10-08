@@ -8,8 +8,19 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter()
-	}
+        adapter: adapter({
+			pages: 'build',
+			assets: 'build'
+		}),
+        paths: {
+            // change below to your repo name
+            base: "/hasankhadra.github.io",
+        }
+        // hydrate the <iv id="svelte"> element in src/app.html
+    }
+	// kit: {
+	// 	adapter: adapter()
+	// }
 };
 
 export default config;
