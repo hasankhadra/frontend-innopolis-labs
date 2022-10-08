@@ -1,0 +1,14 @@
+img {
+	width: 50px;
+}
+
+body {
+	color: #1b2021;
+	background-color: #e3dcc2;
+	font-family: sans-serif;
+}
+
+h2 {
+	display: inline;
+	margin: 20px;
+}
