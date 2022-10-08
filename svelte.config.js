@@ -14,7 +14,7 @@ const config = {
 		}),
         paths: {
             // change below to your repo name
-            base: "",
+            base: "/hasankhadra.github.io",
         }
         // hydrate the <iv id="svelte"> element in src/app.html
     }
