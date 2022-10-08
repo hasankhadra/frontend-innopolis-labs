@@ -5,13 +5,19 @@ import preprocess from 'svelte-preprocess';
 const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
 	// for more information about preprocessors
-	preprocess: preprocess(),
+	preprocess: [
+        preprocess({
+            postcss: true,
+			pages: 'build',
+			assets: 'build'
+        }),
+    ],
 
 	kit: {
         adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-		}),
+		})
         // paths: {
         //     // change below to your repo name
         //     base: "/hasankhadra.github.io",
