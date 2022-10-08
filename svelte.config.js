@@ -12,10 +12,10 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 		}),
-        paths: {
-            // change below to your repo name
-            base: "/hasankhadra.github.io",
-        }
+        // paths: {
+        //     // change below to your repo name
+        //     base: "/hasankhadra.github.io",
+        // }
         // hydrate the <iv id="svelte"> element in src/app.html
     }
 	// kit: {
