@@ -5,6 +5,10 @@
 	import './styles.css';
 </script>
 
+<svelte:head>
+	<title>Homepage</title>
+</svelte:head>
+
 <main>
 	<Header />
 	<Experience />
