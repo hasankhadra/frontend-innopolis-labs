@@ -5,12 +5,7 @@ import preprocess from 'svelte-preprocess';
 const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
 	// for more information about preprocessors
-	prerender: {
-		crawl: true,
-		enabled: true,
-		force: true,
-		pages: ['*']
-	},
+
 	preprocess: [
 		preprocess({
 			pages: 'build',
