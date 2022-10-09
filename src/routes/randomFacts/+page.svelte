@@ -2,7 +2,6 @@
 	import Footer from '../Footer.svelte';
 	import Header from '../Header.svelte';
 	import RandomFacts from './RandomFacts.svelte';
-	// import './styles.css';
 	let numFacts = 10;
 </script>
 
@@ -10,11 +9,11 @@
 	<title>Random Facts</title>
 </svelte:head>
 
-<main>
+<div>
 	<Header />
 	<RandomFacts {numFacts} />
 	<Footer />
-</main>
+</div>
 
 <style>
 </style>

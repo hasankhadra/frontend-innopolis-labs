@@ -8,11 +8,11 @@
 	<title>About</title>
 </svelte:head>
 
-<main>
+<div>
 	<Header />
 	<AboutMe />
 	<Footer />
-</main>
+</div>
 
 <style>
 </style>

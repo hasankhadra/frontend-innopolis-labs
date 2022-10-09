@@ -5,24 +5,36 @@ import preprocess from 'svelte-preprocess';
 const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
 	// for more information about preprocessors
+	prerender: {
+		crawl: true,
+		enabled: true,
+		force: true,
+		pages: ['*']
+	},
 	preprocess: [
-        preprocess({
-			pages: 'build',
-			assets: 'build'
-        }),
-    ],
-
-	kit: {
-        adapter: adapter({
+		preprocess({
 			pages: 'build',
 			assets: 'build',
+			fallback: null,
+			precompress: false
 		})
-        // paths: {
-        //     // change below to your repo name
-        //     base: "/hasankhadra.github.io",
-        // }
-        // hydrate the <iv id="svelte"> element in src/app.html
-    }
+	],
+
+	kit: {
+		adapter: adapter({
+			pages: 'build',
+			assets: 'build'
+		}),
+		trailingSlash: 'always',
+		prerender: {
+			default: true
+		},
+		paths: {
+		    // change below to your repo name
+		    base: "/hasankhadra.github.io",
+		}
+		// hydrate the <div id="svelte"> element in src/app.html
+	}
 	// kit: {
 	// 	adapter: adapter()
 	// }
