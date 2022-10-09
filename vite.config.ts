@@ -7,7 +7,7 @@ const config: UserConfig = {
 		fs: {
 			allow: ['./']
 		},
-		cors: true
+		cors: false
 	}
 };
 
