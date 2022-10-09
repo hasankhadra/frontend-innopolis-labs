@@ -21,9 +21,6 @@ const config = {
 			assets: 'build'
 		}),
 		trailingSlash: 'always',
-		prerender: {
-			default: true
-		},
 		paths: {
 		    // change below to your repo name
 		    base: "/hasankhadra.github.io",
