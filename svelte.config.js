@@ -20,11 +20,11 @@ const config = {
 			pages: 'build',
 			assets: 'build'
 		}),
-		trailingSlash: 'always',
-		paths: {
-		    // change below to your repo name
-		    base: "/hasankhadra.github.io",
-		}
+		trailingSlash: 'always'
+		// paths: {
+		//     // change below to your repo name
+		//     base: "/hasankhadra.github.io",
+		// }
 		// hydrate the <div id="svelte"> element in src/app.html
 	}
 	// kit: {
