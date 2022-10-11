@@ -10,7 +10,7 @@
 	<nav class="navigation">
 		<a href="{base}/">Home Page</a>
 		<a href="{base}/about">About me</a>
-		<a href="{base}/randomFacts">Random Facts</a>
+		<a href="{base}/randomQuotes">Random Quotes</a>
 	</nav>
 </header>
 

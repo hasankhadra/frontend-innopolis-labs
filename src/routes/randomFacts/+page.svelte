@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Random Facts</title>
+	<title>Random Quotes</title>
 </svelte:head>
 
 <div>
