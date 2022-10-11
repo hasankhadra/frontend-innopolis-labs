@@ -1,8 +1,9 @@
 <script lang="ts">
 	import Footer from '../Footer.svelte';
 	import Header from '../Header.svelte';
-	import RandomFacts from './RandomFacts.svelte';
-	let numFacts = 10;
+	import Quotes from './Quotes.svelte';
+
+	let numQuotes = 5;
 </script>
 
 <svelte:head>
@@ -11,7 +12,7 @@
 
 <div>
 	<Header />
-	<RandomFacts {numFacts} />
+	<Quotes numQuotes={numQuotes}/>
 	<Footer />
 </div>
 

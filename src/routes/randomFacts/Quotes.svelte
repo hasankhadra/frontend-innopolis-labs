@@ -1,19 +1,19 @@
 <script lang="ts">
+	import getQuoteOfTheDay from '../../stores/getQuoteOfTheDay';
 	import { onMount } from 'svelte';
-	import getRandomFacts from '../../stores/randomFacts';
 
-	export let numFacts: number;
+	export let numQuotes: number;
 
-	let facts: string[] = [];
+	let quotes: Array<string> = [];
 
 	onMount(async () => {
-		facts = await getRandomFacts(numFacts);
+		quotes = await getQuoteOfTheDay(numQuotes);
 	});
 </script>
 
-<div id="random-facts">
-	<h2>Random facts</h2>
-	{#each facts as element}
+<div id="quotes">
+	<h2>Famous Quotes</h2>
+	{#each quotes as element}
 		<div>
 			{element}
 			<img
@@ -27,16 +27,20 @@
 </div>
 
 <style>
-	#random-facts {
+	#quotes {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	#random-facts > div {
+	#quotes > div {
 		margin-top: 14px;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+	}
+
+	img {
+		width: 50px;
 	}
 </style>
