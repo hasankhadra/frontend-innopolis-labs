@@ -9,9 +9,7 @@ const config = {
 	preprocess: [
 		preprocess({
 			pages: 'build',
-			assets: 'build',
-			fallback: null,
-			precompress: false
+			assets: 'build'
 		})
 	],
 
@@ -21,15 +19,7 @@ const config = {
 			assets: 'build'
 		}),
 		trailingSlash: 'always'
-		// paths: {
-		//     // change below to your repo name
-		//     base: "/hasankhadra.github.io",
-		// }
-		// hydrate the <div id="svelte"> element in src/app.html
 	}
-	// kit: {
-	// 	adapter: adapter()
-	// }
 };
 
 export default config;
