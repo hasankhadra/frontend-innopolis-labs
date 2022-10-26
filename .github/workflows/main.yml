@@ -24,6 +24,8 @@ jobs:
         run: npm run format
       - name: Lint
         run: npm run lint
+      - name: Test
+        run: npm run test
       - name: Deploy to GitHub Page
         uses: JamesIves/github-pages-deploy-action@v4
         with:

@@ -3,7 +3,7 @@
 	import Header from '../Header.svelte';
 	import Quotes from './Quotes.svelte';
 
-	let numQuotes = 5;
+	let numQuotes = 0;
 </script>
 
 <svelte:head>
