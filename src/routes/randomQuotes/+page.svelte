@@ -12,7 +12,7 @@
 
 <div>
 	<Header />
-	<Quotes numQuotes={numQuotes}/>
+	<Quotes {numQuotes} />
 	<Footer />
 </div>
 
