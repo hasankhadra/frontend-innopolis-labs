@@ -1,4 +1,3 @@
-
 export default async (num: number): Promise<Array<string>> => {
 	const quotes = [] as Array<string>;
 

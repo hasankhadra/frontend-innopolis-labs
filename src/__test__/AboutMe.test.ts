@@ -1,12 +1,12 @@
-import { render } from "@testing-library/svelte";
+import { render } from '@testing-library/svelte';
 import '@testing-library/jest-dom';
-import AboutMe from "../routes/about/AboutMe.svelte";
+import AboutMe from '../routes/about/AboutMe.svelte';
 /**
  * @jest-environment jsdom
  */
 
-test("should render", () => {
-  const results = render(AboutMe);
+test('should render', () => {
+	const results = render(AboutMe);
 
-  expect(() => results.getByText("About Me")).not.toThrow();
+	expect(() => results.getByText('About Me')).not.toThrow();
 });
